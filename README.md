@@ -13,12 +13,12 @@ Framework's readme in https://github.com/EnsueCollectR/LLaMA-Factory/blob/main/F
 The [Code](https://github.com/EnsueCollectR/LLaMA-Factory/blob/main/scripts/prepare_pubmedqa.py) is converting the dataset into a format that could be used inside LLaMA-Factory for training.
 For creating a training set
 ```shell
-cd /LLaMA-Factory
+cd LLaMA-Factory
 python scripts/prepare_pubmedqa.py --split train --output data/pubmedqa_alpaca.jsonl
 ```
 For creating a test set
 ```shell
-cd /LLaMA-Factory
+cd LLaMA-Factory
 python scripts/prepare_pubmedqa.py --split test --output data/pubmedqa_alpaca_test.jsonl
 ```
 ### Added data
