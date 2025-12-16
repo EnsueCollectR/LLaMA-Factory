@@ -730,5 +730,30 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "pubmedqa_alpaca": {
+    "file_name": "pubmedqa_alpaca.jsonl",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "pubmedqa_alpaca_test": {
+    "file_name": "pubmedqa_alpaca_test.jsonl",
+    "split": "train",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "pubmedqa_hf": {
+    "hf_hub_url": "llamafactory/PubMedQA",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
   }
 }
