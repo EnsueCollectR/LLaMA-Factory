@@ -32,7 +32,7 @@ llamafactory-cli train \
   --preprocessing_num_workers 16 \
   --finetuning_type lora \
   --template qwen3 \
-  --flash_attn none \
+  --flash_attn auto \
   --dataset_dir data \
   --dataset identity,pubmedqa_alpaca \
   --cutoff_len 2048 \
