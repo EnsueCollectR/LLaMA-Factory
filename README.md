@@ -1,6 +1,5 @@
 Our project is built upon a larger code base called LLaMA-Factory
 ## How to install the dependency
-Here are the steps to run the project:
 ```shell
 git clone --depth 1 https://github.com/EnsueCollectR/LLaMA-Factory
 cd LLaMA-Factory
